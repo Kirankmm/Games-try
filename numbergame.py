@@ -9,11 +9,11 @@ def guess_the_number():
 
     while True:
         try:
-            # Take user's guess as input
+        # Take user's guess as input
             user_guess = int(input("Enter your guess: "))
             attempts += 1
 
-            # Check if the guess is correct
+        # Check if the guess is correct
             if user_guess < number_to_guess:
                 print("Too low! Try again.")
             elif user_guess > number_to_guess:
